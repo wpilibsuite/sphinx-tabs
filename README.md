@@ -1,6 +1,5 @@
-sphinx-tabs [![Build Status](https://travis-ci.org/djungelorm/sphinx-tabs.svg?branch=master)](https://travis-ci.org/djungelorm/sphinx-tabs)
-========================================
-
+sphinxext-sphinx-tabs [![Build Status](https://travis-ci.org/djungelorm/sphinx-tabs.svg?branch=master)](https://travis-ci.org/djungelorm/sphinx-tabs)
+=====================
 Create tabbed content in [Sphinx documentation](http://www.sphinx-doc.org) when building HTML.
 
 For example, see the [Raw] code of [example/index.rst](example/index.rst) which generates the following:
@@ -10,7 +9,7 @@ A live demo can be found here: https://djungelorm.github.io/sphinx-tabs/
 ![Tabs](/images/tabs.gif)
 
 Installation
-----------------------------------------
+------------
 
 ```bash
 pip install sphinx-tabs
@@ -30,7 +29,7 @@ https://github.com/djungelorm/sphinx-tabs/releases/download/v1.1.12/sphinx-tabs-
 An example of this can be found [here](https://github.com/djungelorm/sphinx-tabs-rtd-test/blob/master/requirements.txt).
 
 Basic Tabs
-----------------------------------------
+----------
 
 Basic tabs can be coded as follows:
 
@@ -53,7 +52,7 @@ Basic tabs can be coded as follows:
 ![Tabs](/images/tabs.gif)
 
 Grouped Tabs
-----------------------------------------
+------------
 
 Tabs can be grouped, so that changing the current tab in one area changes the current tab in the
 another area. For example:
@@ -91,7 +90,7 @@ another area. For example:
 ![Group Tabs](/images/groupTabs.gif)
 
 Code Tabs
-----------------------------------------
+---------
 
 Tabs containing code areas with syntax highlighting can be created as follows:
 
